@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-sacale=1.0">
+    <title>Transmo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="visit.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="help.html">HELP</a></li>
+                </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()" ></i>
+            </nav>
+            <div class="text-box">
+                 <h1> Welcome to Transmo</h1>
+                <a href="visit.html"class="hero-btn">Visit us to know more</a>
+            
+            </div>
+        
+        
+        </section>
+        
+        
+        <!------Con us---->
+        <section class ="Contact"> 
+       <h2> Contact us
+            Can you call when you struck </h2>
+            <a href="contact.html" class="hero-btn red-btn">CONTACT US</a>
+            </section>
+        
+        
+            <!-----Help----->
+            <section class="Help">
+            <h3>Help</h3>
+            <p>Any complinet occording to the app you can contact with e_mail or app we_site.</p>
+            </section>
+        
+        
+        
+        <section class="footer">
+            <h1>About us</h1>
+            <p> TRANSMO is a public application provides you the real-time local bus timing,  to help riders quickly get the info they need. More accurate real-time arrival information for buses.  Step by step navigation with the app’s  feature. As a public agency, TRANSMO is committed to providing open data to the public.  If you prefer Google Maps or Apple maps, for example, the agency is still pushing our latest data to anyone who wants it.  And this app is intentionally developed with the motive , those students and workers who are struggling to get the bus on-time, so this makes every person easily track the bus and get to the work on time.  Furthermore you can signup into the app and get used the features.</p>
+        
+        </section>
+        
+        
+        
+        
+        
+        
+        <!-----JavaScript for toggle menu----->
+        
+        
+        <script>
+        var navLinks = document.getElementById("navLinks");  
+          function showmenu(){
+              navLinks.style.right ="0";
+          }  
+            function hidemenu(){
+              navLinks.style.right ="0";
+            }
+        </script>
+        
+    </body>
+</html>
